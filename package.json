@@ -1,0 +1,42 @@
+{
+  "name": "rpgcoinjs-message",
+  "version": "1.0.2",
+  "description": "rpgcoinjs-message",
+  "keywords": [
+    "rpgcoinjs-message",
+    "rpgcoin"
+  ],
+  "homepage": "https://github.com/RPGCoin/rpgcoinjs-message",
+  "bugs": {
+    "url": "https://github.com/RPGCoin/rpgcoinjs-message/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RPGCoin/rpgcoinjs-message.git"
+  },
+  "scripts": {
+    "prepare": "npm run test",
+    "standard": "standard",
+    "test": "npm run standard"
+  },
+  "dependencies": {
+    "bs58check": "^2.0.2",
+    "buffer-equals": "^1.0.3",
+    "create-hash": "^1.1.2",
+    "secp256k1": "^3.0.1",
+    "varuint-rpgcoin": "^1.0.0"
+  },
+  "devDependencies": {
+    "bigi": "^1.4.1",
+    "rpgcoinjs-lib": "github:RPGCoin/rpgcoinjs-lib#master",
+    "standard": "*"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
